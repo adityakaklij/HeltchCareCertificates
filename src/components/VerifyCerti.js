@@ -34,7 +34,7 @@ function VerifyCerti() {
   return (
     <>
 
-        <h2 className='stud'>Enter Student's Verification</h2>
+        <h1 className='stud'>Enter Student's Verification</h1>
         
         <div className="verifyDiv">
             <input type="text" className='verifyStdInput' onChange={details} placeholder="Enter student's ID" />

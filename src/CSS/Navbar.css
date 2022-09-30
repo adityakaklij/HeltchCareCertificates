@@ -1,17 +1,22 @@
 .App {
     text-align: center;
     /* background-color: #382264; */
+    text-decoration: none;
+  }
+
+  body{
+    text-decoration: none;
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: #3e72da;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: rgb(189, 5, 5);
   }
   
   .new1{
@@ -82,5 +87,5 @@
   .navbar-expand-lg .navbar-collapse {
     display: flex!important;
     flex-basis: auto;
-    background-color: gainsboro;
+    background-color: #d2f9f6;
 }

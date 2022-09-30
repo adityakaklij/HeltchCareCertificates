@@ -45,7 +45,8 @@ function App() {
 
       return(
         <div className="App">
-          <p> Connected as : {account}</p>        
+          {/* <p> Connected as : {account}</p>         */}
+          <p></p>
           
           <Router basename='/'>
           {/* <HashRouter > */}
