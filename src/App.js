@@ -54,7 +54,7 @@ function App() {
 
           <Switch>
 
-              <Route  path="/" component={Home}>
+              <Route  exact path="/" component={Home}>
               </Route>
 
               <Route exact path="/VerifyCerti" component={VerifyCerti}>
